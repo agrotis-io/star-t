@@ -3,8 +3,15 @@
   "env": {
     "jest": true
   },
-  "rules": {
-    "semi": [2, "never"],
-    "comma-dangle": [2, "always-multiline"]
+  "plugins": [
+    "prettier"
+  ],
+ "rules": {
+    "prettier/prettier": ["error", {
+      "singleQuote": true,
+      "trailingComma": "all",
+      "bracketSpacing": true,
+      "parser": "flow"
+    }]
   }
 }
