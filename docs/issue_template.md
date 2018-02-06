@@ -28,17 +28,17 @@ exemple:
 - [ ] Documantation (docs)
 
 <!-- if your issue is a fix -->
-- version: 1.0.4
-- browser: firefox 57 (64bits)
-- OS: Linux Mint 17.3 Cinnamon 64-bit
-- device: Notebook lenovo E431.
+> version: 1.0.4
+> browser: firefox 57 (64bits)
+> OS: Linux Mint 17.3 Cinnamon 64-bit
+> device: Notebook lenovo E431.
 <!-- end if -->
  
-> Description of problems. try to be descriptive, tell how you came to the problem, what events and what side effects caused.
+Description of problems. try to be descriptive, tell how you came to the problem, what events and what side effects caused.
 
-> Lorem ipsum dolor sit, amet consectetur adipisicing elit. Suscipit voluptatibus cum impedit repellat quam asperiores. Quos optio, cum itaque quibusdam quisquam dolor perferendis tempora fugit dolorem consectetur velit ipsam numquam!, Lorem ipsum dolor sit, amet consectetur adipisicing elit. Suscipit voluptatibus cum impedit repellat quam asperiores. Quos optio, cum itaque quibusdam quisquam dolor perferendis tempora fugit dolorem consectetur velit ipsam numquam. Lorem ipsum dolor sit, amet consectetur adipisicing elit. Suscipit voluptatibus cum impedit repellat quam asperiores. Quos optio, cum itaque quibusdam quisquam dolor perferendis tempora fugit dolorem consectetur velit ipsam numquam.
+Lorem ipsum dolor sit, amet consectetur adipisicing elit. Suscipit voluptatibus cum impedit repellat quam asperiores. Quos optio, cum itaque quibusdam quisquam dolor perferendis tempora fugit dolorem consectetur velit ipsam numquam!, Lorem ipsum dolor sit, amet consectetur adipisicing elit. Suscipit voluptatibus cum impedit repellat quam asperiores. Quos optio, cum itaque quibusdam quisquam dolor perferendis tempora fugit dolorem consectetur velit ipsam numquam. Lorem ipsum dolor sit, amet consectetur adipisicing elit. Suscipit voluptatibus cum impedit repellat quam asperiores. Quos optio, cum itaque quibusdam quisquam dolor perferendis tempora fugit dolorem consectetur velit ipsam numquam.
 
-> Lorem ipsum dolor sit, amet consectetur adipisicing elit. Suscipit voluptatibus cum impedit repellat quam asperiores. Quos optio, cum itaque quibusdam quisquam dolor perferendis tempora fugit dolorem consectetur velit ipsam numquam. Lorem ipsum dolor sit, amet consectetur adipisicing elit. Suscipit voluptatibus cum impedit repellat quam asperiores. Quos optio, cum itaque quibusdam quisquam dolor perferendis tempora fugit dolorem consectetur velit ipsam numquam!
+Lorem ipsum dolor sit, amet consectetur adipisicing elit. Suscipit voluptatibus cum impedit repellat quam asperiores. Quos optio, cum itaque quibusdam quisquam dolor perferendis tempora fugit dolorem consectetur velit ipsam numquam. Lorem ipsum dolor sit, amet consectetur adipisicing elit. Suscipit voluptatibus cum impedit repellat quam asperiores. Quos optio, cum itaque quibusdam quisquam dolor perferendis tempora fugit dolorem consectetur velit ipsam numquam!
 
 
 
