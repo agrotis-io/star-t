@@ -35,7 +35,6 @@
     "build": "src"
   },
   "jest": {
-    "testRegex": "/test/.*",
     "testEnvironment": "node"
   },
   "keywords": [
