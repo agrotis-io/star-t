@@ -5,8 +5,7 @@ Boilerplate
 
 - [x] [**Babel**](https://babeljs.io/) - Write next generation JavaScript today;
 - [x] [**Jest**](https://facebook.github.io/jest) - JavaScript testing framework used by Facebook;
-- [x] [**ESLint**](http://eslint.org/) - Make sure you are writing a quality code;
-- [ ] [**Prettier**](https://prettier.io/) - Code Format
+- [x] [**Prettier**](https://prettier.io/) - Code Format
 - [ ] [**Travis CI**](https://travis-ci.org) - Automate tests and linting for every push or pull request;
 - [ ] [**Danger JS**](http://danger.systems/js/) - CI process and code norms
 
