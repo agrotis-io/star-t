@@ -28,10 +28,22 @@ Open a problem, mark it as other, and describe the current scenario, its problem
 
 ## Status Check List
 - danger system
-  - prettier code format
-  - jsdocs coverage
+  - commit pattern (breaks)
+  - diferences between yarn.lock and npm.lock (warns)
+  - warn big PRs (warns)
+  - added dependencies and dev dependencies (warns)
+  - updated dependencies and dev dependencies (warns)
+  - removed dependencies and dev dependencies (warns)
+- code coverage
+  - branches: 100%
+  - functions: 100%
+  - lines: 100%
+  - statements: 100%
 - travis
-- build
+  - prettier code format
+  - unit test coverage
+  - jsdocs coverage
+  - build passed
 
 ## Pull request roadmap
 Step by step, with all the way to get an issue, organize the development environment, solve the problem and submit to your pull request.
