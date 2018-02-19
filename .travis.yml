@@ -1,9 +1,21 @@
 language: node_js
 node_js:
-  - v6
-script:
-  - npm run lint && npm test -- --coverage
-cache: 
+  - "8"
+install:
   - yarn
+cache:
+  directories:
+    - "node_modules"
+script:
+  - yarn test
+  # - yarn danger
+  # - npm run build
 after_success:
-  - bash <(curl -s https://codecov.io/bash)
+  - yarn run report-coverage
+  # - 'if [ "$TRAVIS_PULL_REQUEST" = "false" ]; then
+  #     yarn run semantic-release;
+  #   fi'
+  # - npm run mensagem_legal
+
+# after_failure:
+  # - npm run mensagem_triste

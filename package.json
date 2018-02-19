@@ -24,7 +24,8 @@
     "lint": "eslint src test",
     "precommit": "lint-staged",
     "build": "babel src -d dist",
-    "watch": "npm-watch"
+    "watch": "npm-watch",
+    "report-coverage": "cat ./coverage/lcov.info | codecov"
   },
   "lint-staged": {
     "*.js": "prettier -c .prettierrc src/** --write"
@@ -35,7 +36,18 @@
     "build": "src"
   },
   "jest": {
-    "testEnvironment": "node"
+    "testEnvironment": "node",
+    "mapCoverage": true,
+    "collectCoverage": true,
+    "coverageDirectory": "./coverage",
+    "coverageThreshold": {
+      "global": {
+        "branches": 100,
+        "functions": 100,
+        "lines": 100,
+        "statements": 100
+      }
+    }
   },
   "keywords": [
     "generator-nod"
@@ -47,6 +59,8 @@
     "babel-jest": "~22.0.6",
     "babel-preset-env": "~1.1.8",
     "babel-preset-stage-2": "~6.18.0",
+    "codecov.io": "^0.1.6",
+    "commitizen": "^2.9.6",
     "documentation": "~5.3.2",
     "husky": "^0.14.3",
     "jest-cli": "~22.0.6",
