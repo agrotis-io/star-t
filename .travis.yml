@@ -9,7 +9,7 @@ cache:
 script:
   - yarn build
   - yarn test
-  # - yarn danger
+  - yarn danger
 after_success:
   - yarn run report-coverage
   - 'if [ "$TRAVIS_PULL_REQUEST" = "false" ]; then
